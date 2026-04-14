@@ -24,16 +24,12 @@ This two-stage approach combines the strengths of both engines for maximum compr
 
 ---
 
-## Changes
 
 ### Smart Compress Tab
 - PDFs: PassportPDF max → iLovePDF medium → download
 - Images: Scan/enhance → Convert to PDF → PassportPDF max → iLovePDF medium → download
 - Progress indicator will show both compression stages
 
-### Removed
-- "Compare Services" tab completely removed
-- Single-tab interface focused on best compression results
 
 ---
 
