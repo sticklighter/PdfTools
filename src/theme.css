@@ -1,0 +1,44 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * Add custom theme values INSIDE the @theme { } block below.
+ * Do NOT nest @media, @layer, or other at-rules inside @theme.
+ * Do NOT create a tailwind.config.js — all theming is done here.
+ * Keep all { } braces balanced.
+ */
+@theme {
+	/* Colors - Modern PDF Compressor theme */
+	--color-primary: #6366f1;
+	--color-primary-foreground: #ffffff;
+
+	--color-secondary: #f1f5f9;
+	--color-secondary-foreground: #334155;
+
+	--color-destructive: #ef4444;
+	--color-destructive-foreground: #ffffff;
+
+	--color-muted: #f8fafc;
+	--color-muted-foreground: #64748b;
+
+	--color-accent: #10b981;
+	--color-accent-foreground: #ffffff;
+
+	--color-border: #e2e8f0;
+	--color-input: #e2e8f0;
+	--color-ring: #6366f1;
+
+	/* Custom colors */
+	--color-success: #10b981;
+	--color-warning: #f59e0b;
+	--color-surface: #ffffff;
+	--color-background: #f8fafc;
+
+	/* Radius */
+	--radius-sm: 0.5rem;
+	--radius-md: 0.75rem;
+	--radius-lg: 1rem;
+	--radius-xl: 1.5rem;
+	--radius-2xl: 2rem;
+
+	/* Fonts */
+	--font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
